@@ -1,0 +1,56 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face { font-family: Figtree; 
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf'); } 
+@font-face { font-family: Figtree-italic; 
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf'); } 
+
+body{
+    font-size: 11px; text-align: center;
+    color:  hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color:  hsl(0, 0%, 100%);
+    box-shadow: 1em 1em black;
+    border-radius: 2em;
+    border: 1px solid black;
+    max-width: 375px;
+}
+.wrapper{
+    /* display: flex;
+    flex-direction: column; */
+    width: 90%;
+    margin: 0 auto;
+}
+.hero-image{
+    width: 100%;
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 1.5em;
+}
+
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    padding: .5em 1.4em;
+    border-radius: .4em;
+    display: inline-block;
+    font-family: Figtree;
+    margin-bottom: 1em;
+    margin-right: 100%;
+    font-weight: bold;
+}
+
+
+p{
+    background-color:  hsl(0, 0%, 100%);
+    background-color:  hsl(0, 0%, 50%);
+    background-color:  hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+}
