@@ -15,6 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Figtree;
 }
 .card{
     background-color:  hsl(0, 0%, 100%);
@@ -24,10 +25,11 @@ body{
     max-width: 375px;
 }
 .wrapper{
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
+    align-items: flex-start;
 }
 .hero-image{
     width: 100%;
@@ -41,10 +43,38 @@ body{
     padding: .5em 1.4em;
     border-radius: .4em;
     display: inline-block;
-    font-family: Figtree;
     margin-bottom: 1em;
     margin-right: 100%;
-    font-weight: bold;
+    font-weight: 900;
+}
+h1{
+    font-weight: 800;
+    margin: .2em 0;
+}
+p{
+    margin: .5em 0;
+    text-align: left;
+    line-height: 1.4em;
+    font-weight: 600;
+}
+.date{
+    font-size: .8rem;
+}
+.description{
+    font-size: .9rem;
+    color:hsl(0, 0%, 50%);
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    gap:1em;
+    font-size: .8rem;
+    font-weight: 900;
+    margin: 2em 0;
+}
+.avatar-image{
+    width:30%;
 }
 
 
